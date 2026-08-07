@@ -10,8 +10,6 @@
 
   <!-- 与 hello-agents 同款主题：docsify vue.css -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@latest/lib/themes/vue.css">
-  <!-- 侧边栏折叠（箭头样式） -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css">
 
   <style>
     /* ========== 暗黑模式（沿用 hello-agents 方案） ========== */
@@ -157,140 +155,6 @@
     body.dark-mode.close .sidebar-toggle {
       background-color: transparent;
     }
-
-    /* ========== 侧边栏折叠样式优化 ========== */
-    /* 折叠箭头：更大的圆角描边箭头，默认灰色，悬停/激活时变主题绿 */
-    .sidebar-nav ul:not(.app-sub-sidebar) > li.folder::before {
-      content: '';
-      position: absolute;
-      top: 11px;
-      left: -12px;
-      height: 8px;
-      width: 8px;
-      border-right: 2px solid #9aa7b5;
-      border-bottom: 2px solid #9aa7b5;
-      transform: rotate(-45deg);
-      transition: transform 0.18s ease, border-color 0.18s ease;
-    }
-
-    .sidebar-nav ul:not(.app-sub-sidebar) > li.folder.open::before {
-      transform: rotate(45deg);
-    }
-
-    /* 分类标题：加粗，悬停变主题绿，带圆角高亮条 */
-    .sidebar-nav li.folder {
-      font-weight: 600;
-      color: #2f3b45;
-      transition: color 0.15s ease;
-    }
-
-    .sidebar-nav li.folder::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 6px;
-      right: 6px;
-      height: 30px;
-      border-radius: 6px;
-      background: transparent;
-      transition: background-color 0.15s ease;
-      pointer-events: none;
-    }
-
-    .sidebar-nav li.folder:hover {
-      color: var(--theme-color);
-    }
-
-    .sidebar-nav li.folder:hover::after {
-      background: rgba(66, 185, 131, 0.1);
-    }
-
-    .sidebar-nav ul:not(.app-sub-sidebar) > li.folder:hover::before,
-    .sidebar-nav ul:not(.app-sub-sidebar) > li.folder.active::before,
-    .sidebar-nav ul:not(.app-sub-sidebar) > li.folder:has(> ul li.active)::before {
-      border-color: var(--theme-color);
-    }
-
-    .sidebar-nav li.folder.active {
-      color: var(--theme-color);
-    }
-
-    .sidebar-nav li.folder.active::after {
-      background: rgba(66, 185, 131, 0.12);
-    }
-
-    /* 当前页所在分类保持高亮（插件只标记 open，这里用 :has 补齐视觉状态） */
-    .sidebar-nav li.folder:has(> ul li.active) {
-      color: var(--theme-color);
-    }
-
-    .sidebar-nav li.folder:has(> ul li.active)::after {
-      background: rgba(66, 185, 131, 0.12);
-    }
-
-    .sidebar-nav li.file a {
-      transition: color 0.15s ease;
-    }
-
-    .sidebar-nav li.file a:hover {
-      color: var(--theme-color);
-    }
-
-    /* 子列表：缩进引导线 + 平滑展开/收起动画 */
-    .sidebar-nav li.folder > ul:not(.app-sub-sidebar) {
-      display: block !important;
-      max-height: 0;
-      overflow: hidden;
-      opacity: 0;
-      padding-left: 10px;
-      border-left: 1px solid rgba(125, 140, 155, 0.25);
-      transition: max-height 0.28s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.22s ease;
-    }
-
-    .sidebar-nav li.folder.open > ul:not(.app-sub-sidebar),
-    .sidebar-nav li.folder.active:not(.collapse) > ul:not(.app-sub-sidebar) {
-      max-height: 260px;
-      opacity: 1;
-    }
-
-    /* 深色模式适配 */
-    body.dark-mode .sidebar-nav li.folder {
-      color: #d6d6d6;
-    }
-
-    body.dark-mode .sidebar-nav li.folder:hover {
-      color: var(--theme-color);
-    }
-
-    body.dark-mode .sidebar-nav li.folder::before {
-      border-color: #8a96a3;
-    }
-
-    body.dark-mode .sidebar-nav ul:not(.app-sub-sidebar) > li.folder:hover::before,
-    body.dark-mode .sidebar-nav ul:not(.app-sub-sidebar) > li.folder.active::before,
-    body.dark-mode .sidebar-nav ul:not(.app-sub-sidebar) > li.folder:has(> ul li.active)::before {
-      border-color: var(--theme-color);
-    }
-
-    body.dark-mode .sidebar-nav li.folder:hover::after {
-      background: rgba(255, 255, 255, 0.07);
-    }
-
-    body.dark-mode .sidebar-nav li.folder.active::after {
-      background: rgba(66, 185, 131, 0.16);
-    }
-
-    body.dark-mode .sidebar-nav li.folder:has(> ul li.active) {
-      color: var(--theme-color);
-    }
-
-    body.dark-mode .sidebar-nav li.folder:has(> ul li.active)::after {
-      background: rgba(66, 185, 131, 0.16);
-    }
-
-    body.dark-mode .sidebar-nav li.folder > ul {
-      border-left-color: rgba(255, 255, 255, 0.14);
-    }
   </style>
 </head>
 
@@ -306,7 +170,6 @@
       loadSidebar: true,
       auto2top: true,
       subMaxLevel: 3,
-      sidebarDisplayLevel: 2,
 
       pagination: {
         previousText: '上一篇',
@@ -374,9 +237,6 @@
   </script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js"></script>
-
-  <!-- 侧边栏折叠 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 
   <!-- 代码高亮 -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@latest/components/prism-bash.js"></script>

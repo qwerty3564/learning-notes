@@ -1,4 +1,4 @@
-# Changjin's Learning Notes
+#  Learning Notes
 
 > LLM、Agent、模型训练与工程实践学习笔记
 >

@@ -1,19 +1,22 @@
 {
   "name": "learning-notes",
   "version": "1.0.0",
-  "description": "",
+  "description": "LLM、Agent、模型训练与工程实践学习笔记（docsify）",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:dev": "docsify serve docs",
+    "docs:preview": "docsify serve docs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "notes",
+    "docsify",
+    "llm",
+    "agent"
+  ],
+  "author": "Changjin",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "vitepress": "^1.6.4"
+    "docsify-cli": "^4.4.4"
   }
 }

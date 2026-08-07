@@ -1,6 +1,6 @@
-# 五个长期记忆评估数据集笔记
+# 五个长期记忆评估数据集笔记（纯对话数据集）
 
-> 适用场景：理解 MemOS `evaluation/scripts/` 下的 `locomo`、`long_bench-v2`、`longmemeval`、`personamem` 和 `PrefEval` 五套评估脚本。  
+> 适用场景：理解  `locomo`、`long_bench-v2`、`longmemeval`、`personamem` 和 `PrefEval` 个数据集，这里以memos评估为切入点。  
 > 核心问题：每个数据集长什么样、测什么能力、MemOS 如何评估、最终看哪些指标。
 
 ---
@@ -37,7 +37,7 @@ PrefEval
 ```
 
 ---
-
+理解数据集最好的方式就是了解其评估方法和指标，接下来以memos的评估脚本作为学习案例。
 ## 2. MemOS 的统一评估流程
 
 这几套脚本通常都采用类似的四阶段流程：

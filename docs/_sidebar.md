@@ -28,3 +28,4 @@
 - <strong>项目学习</strong>
   - <strong>MemOS</strong>
     - [第一章：MemOS 的使用方式与系统入口](./project/memos/chapter1-usage)
+    - [第二章：MOS 的初始化与组件装配](./project/memos/chapter2-init)

@@ -24,3 +24,7 @@
   - [Docker](./engineering/docker)
   - [Git](./engineering/git)
   - [Linux](./engineering/linux)
+
+- <strong>项目学习</strong>
+  - <strong>MemOS</strong>
+    - [第一章：MemOS 的使用方式与系统入口](./project/memos/chapter1-usage)

@@ -26,3 +26,4 @@
     - [第一章：MemOS 的使用方式与系统入口](./project/memos/chapter1-usage)
     - [第二章：MOS 的初始化与组件装配](./project/memos/chapter2-init)
     - [第三章：MemCube 与 Memory](./project/memos/chapter3-memcube-memory)
+    - [第四章：GeneralTextMemory](./project/memos/chapter4-general-text-memory)

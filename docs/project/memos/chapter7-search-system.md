@@ -806,4 +806,4 @@ Post-process
 
 因此 MemOS 的 Tree Search 已经不是传统意义上的“向量数据库 Top-K”，而更接近一个完整的**长期记忆搜索引擎**。当前 `GraphMemoryRetriever` 本身就将图检索与向量相似度检索合并，而 Searcher 再向上组合 Query Parsing、多路径并行 Recall、Rerank 和最终去重截断。
 
-下一章应该继续进入 **《偏好记忆：Preference Memory 如何完成偏好抽取、冲突更新与个性化检索》**。因为普通事实记忆的形成、组织和搜索已经基本完整，接下来最值得学习的是：为什么“用户喜欢什么”不能简单当作普通事实存进去，以及 Preference Memory 为什么需要独立的提取和更新逻辑。
+下一章进入 《特殊记忆类型：Preference、Skill、Tool 与 Tree Memory 类型体系》。本章只解决“怎么搜”，下一章再解决“系统到底在搜哪些不同性质的 Memory，以及它们为什么需要不同的形成和使用策略”。

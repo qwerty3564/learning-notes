@@ -27,3 +27,4 @@
     - [第二章：MOS 的初始化与组件装配](./project/memos/chapter2-init)
     - [第三章：MemCube 与 Memory](./project/memos/chapter3-memcube-memory)
     - [第四章：GeneralTextMemory](./project/memos/chapter4-general-text-memory)
+    - [第五章：TreeTextMemory](./project/memos/chapter5-tree-text-memory)

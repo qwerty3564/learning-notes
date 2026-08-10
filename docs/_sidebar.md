@@ -31,3 +31,4 @@
     - [第六章：MemReader](./project/memos/chapter6-memreader)
     - [第七章：记忆检索系统](./project/memos/chapter7-search-system)
     - [第八章：特殊记忆类型](./project/memos/chapter8-special-memory)
+    - [第九章：MOS 调用链](./project/memos/chapter9-mos-callchain)

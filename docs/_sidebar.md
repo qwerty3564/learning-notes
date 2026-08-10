@@ -29,3 +29,4 @@
     - [第四章：GeneralTextMemory](./project/memos/chapter4-general-text-memory)
     - [第五章：TreeTextMemory](./project/memos/chapter5-tree-text-memory)
     - [第六章：MemReader](./project/memos/chapter6-memreader)
+    - [第七章：记忆检索系统](./project/memos/chapter7-search-system)

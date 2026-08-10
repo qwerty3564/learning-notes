@@ -28,3 +28,4 @@
     - [第三章：MemCube 与 Memory](./project/memos/chapter3-memcube-memory)
     - [第四章：GeneralTextMemory](./project/memos/chapter4-general-text-memory)
     - [第五章：TreeTextMemory](./project/memos/chapter5-tree-text-memory)
+    - [第六章：MemReader](./project/memos/chapter6-memreader)

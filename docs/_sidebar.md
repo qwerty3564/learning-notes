@@ -20,6 +20,7 @@
   - [Docker](./engineering/docker)
   - [Git](./engineering/git)
   - [Linux](./engineering/linux)
+  - [DGX Spark 内核修复](./engineering/dgx-spark-kernel-panic)
 
 - <strong>项目学习</strong>
   - <strong>MemOS</strong>

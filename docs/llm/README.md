@@ -4,8 +4,8 @@
 
 ## 目录
 
-- [Mamba 原理](./mamba)
-- [Nemotron 架构](./nemotron)
-- [LoRA 与 QLoRA](./qlora)
-- [大模型加载](./model-loading)
-- [结构化剪枝](./structured-pruning)
+- [Mamba 原理](llm/mamba)
+- [Nemotron 架构](llm/nemotron)
+- [LoRA 与 QLoRA](llm/qlora)
+- [大模型加载](llm/model-loading)
+- [结构化剪枝](llm/structured-pruning)

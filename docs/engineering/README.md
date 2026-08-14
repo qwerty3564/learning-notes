@@ -4,7 +4,7 @@
 
 ## 目录
 
-- [Docker](./docker)
-- [Git](./git)
-- [Linux](./linux)
-- [DGX Spark 内核修复](./dgx-spark-kernel-panic)
+- [Docker](engineering/docker)
+- [Git](engineering/git)
+- [Linux](engineering/linux)
+- [DGX Spark 内核修复](engineering/dgx-spark-kernel-panic)

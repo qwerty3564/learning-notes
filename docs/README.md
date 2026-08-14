@@ -42,11 +42,11 @@
 
 ## 📚 快速开始
 
-- [LLM 学习路线](./llm/)
-- [Agent 学习路线](./agent/)
-- [工程实践](./engineering/)
-- [项目学习：MemOS 第一章](./project/memos/chapter1-usage)
-- [长期记忆评估数据集笔记](./agent/evaluation/memory-benchmarks)
+- [LLM 学习路线](llm/)
+- [Agent 学习路线](agent/)
+- [工程实践](engineering/)
+- [项目学习：MemOS 第一章](project/memos/chapter1-usage)
+- [长期记忆评估数据集笔记](agent/evaluation/memory-benchmarks)
 
 ## 💡 如何学习
 

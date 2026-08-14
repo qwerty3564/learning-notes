@@ -4,7 +4,7 @@
 
 ## 目录
 
-- [Agent 整体架构](./architecture)
-- [记忆系统](./memory-system)
-- [MCP](./mcp)
-- [Agent 评估](./evaluation/)
+- [Agent 整体架构](agent/architecture)
+- [记忆系统](agent/memory-system)
+- [MCP](agent/mcp)
+- [Agent 评估](agent/evaluation/)

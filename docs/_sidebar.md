@@ -34,3 +34,5 @@
     - [第八章：特殊记忆类型](./project/memos/chapter8-special-memory)
     - [第九章：MOS 调用链](./project/memos/chapter9-mos-callchain)
     - [第十章：MemScheduler](./project/memos/chapter10-mem-scheduler)
+  - <strong>mem0</strong>
+    - [第一章：Memory.add 记忆写入入口](./project/mem0/chapter1-memory-add)

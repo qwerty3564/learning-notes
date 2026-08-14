@@ -7,3 +7,4 @@
 - [Docker](./docker)
 - [Git](./git)
 - [Linux](./linux)
+- [DGX Spark 内核修复](./dgx-spark-kernel-panic)

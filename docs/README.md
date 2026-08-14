@@ -13,10 +13,10 @@
 
 | 分类 | 内容 | 入口 |
 |---|---|---|
-| LLM | Transformer、Mamba、Nemotron、MoE 架构；SFT、QLoRA、模型加载、量化与推理优化 | [开始阅读](./llm/) |
-| Agent | Agent 架构、工具调用、MCP、长期记忆与评估 | [Agent 笔记](./agent/) |
-| 工程实践 | Python、Docker、Git、Linux、DGX Spark 故障修复与模型部署 | [工程实践](./engineering/) |
-| 项目学习 | MemOS 源码拆解系列：从使用入口、组件装配到记忆检索与调度 | [MemOS 系列](./project/memos/chapter1-usage) |
+| LLM | Transformer、Mamba、Nemotron、MoE 架构；SFT、QLoRA、模型加载、量化与推理优化 | [开始阅读](https://qwerty3564.github.io/learning-notes/#/llm/) |
+| Agent | Agent 架构、工具调用、MCP、长期记忆与评估 | [Agent 笔记](https://qwerty3564.github.io/learning-notes/#/agent/) |
+| 工程实践 | Python、Docker、Git、Linux、DGX Spark 故障修复与模型部署 | [工程实践](https://qwerty3564.github.io/learning-notes/#/engineering/) |
+| 项目学习 | MemOS 源码拆解系列：从使用入口、组件装配到记忆检索与调度 | [MemOS 系列](https://qwerty3564.github.io/learning-notes/#/project/memos/chapter1-usage) |
 
 ## ✨ 笔记分类
 

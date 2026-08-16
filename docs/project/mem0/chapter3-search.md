@@ -222,9 +222,3 @@ return {"results": original_memories}
 | **存储接口解耦** | 通用 DSL 操作符转换中间表达（IR） | 屏蔽 Qdrant、Chroma、Milvus 等底层向量数据库的语法差异 |
 | **异步并发保护** | `asyncio.to_thread` 调度 Reranker | 避免 CPU 密集型重排推理冻结 asyncio 主事件循环 |
 | **高可用弹性降级** | 局部 `try...except` 包裹 Rerank 与遥测 | 外部辅助服务或重排挂掉时，核心业务流程绝不中断 |
-
-## 🔜 下一章预告
-
-**第 4 章：记忆的生命周期演进 —— add() 背后如何做智能合并与去重？**
-
-当用户说"我戒掉拿铁了，现在只喝美式"，系统是直接新增一条，还是把旧的修改掉？下一章我们将深入源码，拆解 Mem0 最精妙的记忆相似度判定与动态更新（Update / Add / Delete）决策图。

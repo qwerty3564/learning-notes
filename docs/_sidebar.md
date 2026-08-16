@@ -37,3 +37,4 @@
   - <strong>mem0</strong>
     - [第一章：Memory.add 记忆写入入口](./project/mem0/chapter1-memory-add)
     - [第二章：_add_to_vector_store 批处理流水线](./project/mem0/chapter2-write-pipeline)
+    - [第三章：记忆检索核心流水线](./project/mem0/chapter3-search)
